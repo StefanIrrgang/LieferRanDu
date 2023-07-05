@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 96px;
+    background-color: rgb(255,127,1); 
+    font-family: 'Fasthand', cursive;
+    padding: 24px 32px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.imgSubHeader img {
+    height: 224px;
+    width: 75%;
+    object-fit: cover;
+}
+
+.SubHeader {
+    height: 96px;
+    background-color: white;
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Fasthand', cursive;
+    padding: 0px 24px;
+}
+
+.reviews {
+    color: rgb(255,127,1); 
+    font-size: smaller;
+}
+
+.dishHeadline {
+    width: 75%;
+    height: 64px;
+    background-color: rgb(239,237,234);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 24px;
+    font-family: 'Fasthand', cursive;
+}
+
+.basketMain {
+    position: absolute;
+    left: 75%;
+    top: 96px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    height: 96px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(239,237,234);
+}
+
+.footer-left {
+    margin-left: 128px;
+    font-family: 'Fasthand', cursive;
+}
+
+.footer-right {
+    margin-right: 128px;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: black;
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+    color: black;
+    margin-left: 32px;
+    cursor: pointer;
+}
