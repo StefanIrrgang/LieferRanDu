@@ -56,7 +56,7 @@ header nav{
     border-radius: 6px;
 }
 
-.dishTableMain {
+.card {
     width: 65%;
     display: flex;
     flex-direction: column;
@@ -72,8 +72,8 @@ header nav{
     padding-bottom: 8px;
 }
 
-.dishTableMain:hover {
-    background-color: rgb(219, 216, 212);
+.card:hover {
+    background-color: rgb(245, 242, 240);
 }
 
 .dishHead {
@@ -89,6 +89,7 @@ header nav{
     width: 24px;
     object-fit: contain;
     margin-right: 8px;
+    cursor: pointer;
 }
 
 .dishDescription {
@@ -103,7 +104,7 @@ header nav{
 }
 
 .basketMain {
-    position: absolute;
+    position: fixed;
     left: 75%;
     top: 96px;
     height: auto;

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 
-<body>
+<body onload="generateMenu()">
     <header>
         <nav>
             <div class="header-left"><a href="#"><img src="icons/liefern48.png" alt="Liefern"></a>
@@ -39,15 +39,7 @@
         <div class="dishHeadline">
             <h3>Beliebte Gerichte</h3>
         </div>
-        <div class="dishTableMain" id="dishTable">
-            <div class="dishHead">
-                <p>Cheeseburger</p><img class="" src="icons/plus48.png">
-            </div>
-            <div class="dishDescription">
-                <p>mit 180g Fleisch und Käse</p>
-            </div>
-            <div id="dishprice">6.50 €</div>
-        </div>
+        <div class="dishTableMain" id="dishTable"></div>
     </div>
     <div class="basketMain">
         <h3>Warenkorb</h3>
