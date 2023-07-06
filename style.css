@@ -107,11 +107,67 @@ header nav{
     position: fixed;
     left: 75%;
     top: 96px;
+    width: 25%;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 16px;
+}
+
+#basketSubMain {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: white;
+    border-radius: 6px;
+    font-family: 'Fasthand', cursive;
+}
+
+.menuCard {
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    background-color: rgb(239,237,234);
+    margin-bottom: 8px;
+}
+
+.allDishesInCard {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.allDishesInCardDish {
+    text-decoration: underline;
+}
+
+.allDishesInCardDish:hover {
+    text-decoration: none;
+}
+
+.allDishesdescription {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: small;
+}
+
+.noteandicon {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.noteandicon img {
+    height: 24px;
+    width: 24px;
+    object-fit: contain;
 }
 
 footer {
