@@ -18,7 +18,7 @@
                 <h1>LieferRanDu!</h1>
             </div>
             <div>
-                <p>Seestraße 5, München</p>
+                <p style="text-decoration: underline;">Seestraße 5, München</p>
             </div>
             <div><a href="#"><img src="icons/germany48.png" alt="German"></a>
                 <a href="#"><img src="icons/menu50.png" alt="menu"></a>
@@ -37,14 +37,23 @@
             <div><img src="icons/info24.png" alt="info"><img src="icons/like24.png" alt="like"></div>
         </div>
         <div class="dishHeadline">
-            <h2>Beliebte Gerichte</h2>
+            <h3>Beliebte Gerichte</h3>
         </div>
-        <div class="dishTableMain" id="dishTable">JS Code Table laden von Arrays</div>
+        <div class="dishTableMain" id="dishTable">
+            <div class="dishHead">
+                <p>Cheeseburger</p><img class="" src="icons/plus48.png">
+            </div>
+            <div class="dishDescription">
+                <p>mit 180g Fleisch und Käse</p>
+            </div>
+            <div id="dishprice">6.50 €</div>
+        </div>
     </div>
     <div class="basketMain">
         <h3>Warenkorb</h3>
         <div>Hier werden die gewählten Gerichte geladen</div>
-        <div>Hier wird der Mindestbestellwert angezeigt und errechnet, wie viel noch fehlt oder ob es bereits reicht</div>
+        <div>Hier wird der Mindestbestellwert angezeigt und errechnet, wie viel noch fehlt oder ob es bereits reicht
+        </div>
         <div>Hier werden die Kosten addiert angezeigt und Lieferkosten zu einer Gesamtsumme addiert.</div>
         <div>Bezahlbutton, geht nur, wenn Mindestbestellwert erreicht wurde.</div>
     </div>
