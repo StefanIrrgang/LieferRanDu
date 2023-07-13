@@ -51,9 +51,9 @@ function addToBasketMainDiv(i, j) {
 }
 
 function loadDivsforBasket(i, j, element2) {
-    let amountprices = amountBasket[i] * shoppingbasketprices[j];
+    let amountprices = amountBasket[j] * shoppingbasketprices[j];
     return `<div class="menuCard">
-                <div class="allDishesInCard"><p>${amountBasket[i]}</p><p class="allDishesInCardDish">${shoppingbasketdish[j]}</p><p>${amountprices.toFixed(2).replace('.', ',')} €</p></div>
+                <div class="allDishesInCard"><p>${amountBasket[j]}</p><p class="allDishesInCardDish">${shoppingbasketdish[j]}</p><p>${amountprices.toFixed(2).replace('.', ',')} €</p></div>
                 <div class="allDishesdescription"><p>${description[j]}</p></div>
                 <div class="noteandicon"><p class="allDishesInCardDish">Anmerkung hinzufügen</p><div><img src="icons/minus48.png"><img src="icons/plus48.png"></div></div>
             </div>`;
